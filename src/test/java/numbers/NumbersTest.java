@@ -1,0 +1,16 @@
+package numbers;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+public class NumbersTest {
+
+
+    @Test
+    public void sum() {
+        assertEquals(45, new  Numbers().sum(10));
+    }
+}
